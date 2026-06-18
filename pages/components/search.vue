@@ -12,7 +12,6 @@ import { ref, watch, onMounted, computed } from 'vue'
 import Fuse from 'fuse.js'
 import { cn } from '@/lib/utils'
 import { Search } from 'lucide-vue-next'
-import Header from '@/layouts/components/header.vue'
 
 // 状态管理
 const searchQuery = ref('')
